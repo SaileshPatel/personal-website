@@ -1,5 +1,6 @@
 ---
 layout: base-layout.njk
+title: About
 ---
 
 # About
