@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+}
+
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
