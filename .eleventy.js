@@ -13,8 +13,11 @@ module.exports = function (eleventyConfig) {
     return moment(date).utc().format('LL'); // E.g. May 31, 2019
   });
 
+  eleventyConfig.addPassthroughCopy('css');
+
 
   return {
+    passthroughFileCopy: true,
     dir: { 
       input: ".",
       data: "_data", 
