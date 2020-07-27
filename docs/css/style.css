@@ -40,9 +40,13 @@ h1.title {
   font-size: 40px;
 }
 
-.project h1 {
+article.project h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+}
+article.project p {
+  font-family: "Roboto", Arial;
+  font-size: 15px;
 }
 
 .footer {
