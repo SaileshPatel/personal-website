@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
+$font-stack: 'Roboto', sans-serif;
+$size: 40px;
+
+p, h1 {
+    font-family: $font-stack;
+}
+
+p, li {
+    font-size: $size * 0.35;
+}
+
 .container {
     display: grid;
     grid-template-columns: 20% auto 20%;
@@ -34,23 +45,20 @@ main {
     grid-row-start: 1;
     grid-row-end: 1;
     text-align: center;
-}
 
-h1.title {
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
+    .title {
+        font-family: $font-stack;
+        font-size: $size;
+    }
 }
-
 
 article.project {
-    h1 {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 20px;
-    }
+    padding: 10px 0 10px 0;
+    border-bottom: 1px black dashed;
 
-    p {
-        font-family: 'Roboto', Arial;
-        font-size: 15px;
+    h1 {
+        font-family: $font-stack;
+        font-size: $size * 0.5;
     }
 }
 
@@ -60,8 +68,8 @@ article.project {
     padding: 0.5%;
     text-align: center;
     position:absolute;
-    font-family: "Open Sans", Arial;
-    font-size: 12px;
+    font-family: $font-stack;
+    font-size: $size * 0.25;
     bottom:0;
     left:0;
     right:0;
