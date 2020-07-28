@@ -38,10 +38,13 @@ main {
 }
 
 .navbar {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: auto;
+    grid-area: 2 / 1 / auto / 2;
+    text-align: center;
+
+    a {
+        font-family: $font-stack;
+        font-size: $size * 0.4;
+    }
 }
 
 .header {
