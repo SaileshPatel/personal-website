@@ -41,10 +41,7 @@ main {
 }
 
 .header {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 1;
+  grid-area: 1/1/span 1/span 3;
   text-align: center;
 }
 .header .title {
@@ -68,16 +65,12 @@ article.project h1 {
 }
 
 .footer {
-  grid-area: footer;
+  grid-area: 3/1/span 1/span 3;
   border-top: 1px solid black;
   padding: 0.5%;
   text-align: center;
-  position: absolute;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
