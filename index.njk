@@ -10,8 +10,8 @@ pagination:
 {% for project in projects %}
     <article class="project">
         <h1><a href="{{ project.url | url }}">{{ project.data.title }}</a></h1>
-        <p>Uploaded on <time datetime="{{ project.date | dateIso }}">{{ project.date | dateReadable }}</time></p>
-        <p>{% excerpt project %}</p>
+        <time datetime="{{ project.date | dateIso }}">{{ project.date | dateReadable }}
+        <p class="excerpt">{% excerpt project %}</p>
         <p><a href="{{ project.url | url }}" aria-label="Read more on {{ project.data.title }}">Read more</a></p>
     </article>
 
