@@ -40,10 +40,12 @@ main {
 .navbar {
     grid-area: 2 / 1 / auto / 2;
     text-align: center;
+    padding: 10px 0 10px 0;
 
-    a {
+    li {
         font-family: $font-stack;
         font-size: $size * 0.4;
+        padding-top: 7px;
     }
 }
 

@@ -36,10 +36,12 @@ main {
 .navbar {
   grid-area: 2/1/auto/2;
   text-align: center;
+  padding: 10px 0 10px 0;
 }
-.navbar a {
+.navbar li {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  padding-top: 7px;
 }
 
 .header {
