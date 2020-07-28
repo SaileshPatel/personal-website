@@ -51,6 +51,9 @@ article.project {
   padding: 10px 0 10px 0;
   border-bottom: 1px black dashed;
 }
+article.project time {
+  padding-top: 5px;
+}
 article.project .excerpt {
   padding-top: 10px;
 }
