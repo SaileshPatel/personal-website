@@ -24,17 +24,17 @@ p, li, time {
 }
 
 main {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: auto;
+    grid-area: 2 / 2 / auto / 3;
 }
 
 .social {
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: auto;
+    grid-area: 2 / 3 / auto / 4;
+
+    li {
+        font-family: $font-stack;
+        font-size: $size * 0.4;
+        padding-top: 7px;
+    }
 }
 
 .navbar {
