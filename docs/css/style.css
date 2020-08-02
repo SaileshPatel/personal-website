@@ -25,6 +25,7 @@ main {
 
 .social {
   grid-area: 2/3/auto/4;
+  text-align: center;
 }
 .social li {
   font-family: "Roboto", sans-serif;

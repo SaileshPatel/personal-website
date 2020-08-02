@@ -29,6 +29,7 @@ main {
 
 .social {
     grid-area: 2 / 3 / auto / 4;
+    text-align: center;
 
     li {
         font-family: $font-stack;
