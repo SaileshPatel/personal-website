@@ -68,7 +68,7 @@ article.project time {
 article.project .excerpt {
   padding-top: 10px;
 }
-article.project h1 {
+article.project h2 {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
