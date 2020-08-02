@@ -17,6 +17,7 @@ p, li {
 time {
     font-size: $size * 0.35;
     font-family: $font-stack;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -75,7 +76,7 @@ main {
 
     .title {
         font-family: $font-stack;
-        font-size: $size;
+        font-size: $size * 1.1;
     }
 }
 
@@ -85,10 +86,6 @@ article.project {
 
     time {
         padding-top: 5px;
-    }
-
-    .excerpt {
-        padding-top: 10px;
     }
 }
 
