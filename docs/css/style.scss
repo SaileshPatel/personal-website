@@ -8,12 +8,19 @@ html, body {
     height: 100%;
 }
 
-p, h1, time {
+p, li, time {
+    font-size: $size * 0.35;
     font-family: $font-stack;
 }
 
-p, li, time {
-    font-size: $size * 0.35;
+h1 {
+    font-family: $font-stack;
+    font-size: $size * 0.8;
+}
+
+h2 {
+    font-family: $font-stack;
+    font-size: $size * 0.55;
 }
 
 .container {
@@ -76,11 +83,6 @@ article.project {
 
     .excerpt {
         padding-top: 10px;
-    }
-
-    h2 {
-        font-family: $font-stack;
-        font-size: $size * 0.55;
     }
 }
 

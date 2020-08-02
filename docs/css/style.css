@@ -4,12 +4,19 @@ html, body {
   height: 100%;
 }
 
-p, h1, time {
+p, li, time {
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
 
-p, li, time {
-  font-size: 14px;
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
 .container {
@@ -67,10 +74,6 @@ article.project time {
 }
 article.project .excerpt {
   padding-top: 10px;
-}
-article.project h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 22px;
 }
 
 .footer {
