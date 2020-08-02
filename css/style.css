@@ -73,7 +73,7 @@ main {
 
 article.project {
   padding: 15px 0 10px 0;
-  border-bottom: 1px black dashed;
+  border-bottom: 1px dashed black;
 }
 article.project time {
   padding-top: 5px;
