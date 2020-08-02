@@ -35,6 +35,11 @@ main {
         font-size: $size * 0.4;
         padding-top: 7px;
     }
+
+    img {
+        height: 40px;
+        width: auto;
+    }
 }
 
 .navbar {
