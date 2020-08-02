@@ -17,7 +17,6 @@ p, li {
 time {
     font-size: $size * 0.35;
     font-family: $font-stack;
-    padding-bottom: 10px;
 }
 
 h1 {
@@ -84,8 +83,8 @@ article.project {
     padding: 15px 0 10px 0;
     border-bottom: 1px dashed rgb(0, 0, 0);
 
-    time {
-        padding-top: 5px;
+    p {
+        padding-top: 12px;
     }
 }
 
