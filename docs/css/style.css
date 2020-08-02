@@ -4,7 +4,12 @@ html, body {
   height: 100%;
 }
 
-p, li, time {
+p, li {
+  font-size: 15.2px;
+  font-family: "Roboto", sans-serif;
+}
+
+time {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
