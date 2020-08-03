@@ -90,6 +90,10 @@ article.project {
 
 article.post {
     p:first-of-type {
+        padding-top: 30px;
+    }
+
+    p {
         padding-top: 20px;
     }
 }

@@ -80,6 +80,9 @@ article.project p {
 }
 
 article.post p:first-of-type {
+  padding-top: 30px;
+}
+article.post p {
   padding-top: 20px;
 }
 
