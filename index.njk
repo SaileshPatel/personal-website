@@ -7,8 +7,6 @@ pagination:
     reverse: true
     alias: projects
 ---
-<h1>Projects</h1>
-<p>This section includes notable projects I have worked on over the years, with a brief description of how they were developed.</p>
 {% for project in projects %}
     <article class="project">
         <h2><a href="{{ project.url | url }}">{{ project.data.title }}</a></h2>
@@ -16,5 +14,4 @@ pagination:
         <p class="excerpt">{% excerpt project %}</p>
         <p><a href="{{ project.url | url }}" aria-label="Read more on {{ project.data.title }}">Read more</a></p>
     </article>
-
 {% endfor %}

@@ -88,6 +88,12 @@ article.project {
     }
 }
 
+article.post {
+    p:first-of-type {
+        padding-top: 20px;
+    }
+}
+
 .footer {
     grid-area: 3 / 1 / span 1 / span 3;
     border-top: 1px solid black;
