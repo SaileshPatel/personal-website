@@ -98,6 +98,12 @@ article.post {
     }
 }
 
+div#about {
+    p {
+        padding-top: 15px;
+    }
+}
+
 .footer {
     grid-area: 3 / 1 / span 1 / span 3;
     border-top: 1px solid black;
