@@ -25,6 +25,11 @@ h2 {
   font-size: 22px;
 }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 20% auto 20%;
