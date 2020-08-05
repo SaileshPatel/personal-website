@@ -86,8 +86,18 @@ article.post p {
   padding-top: 15px;
 }
 
-div#about p {
-  padding-top: 15px;
+div#about {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% auto;
+  grid-template-rows: 5% 5% auto;
+}
+div#about #about-header {
+  grid-area: 1/1/span 3/span 4;
+}
+div#about #bio {
+  grid-area: 2/1/3/span 4;
 }
 
 .footer {
