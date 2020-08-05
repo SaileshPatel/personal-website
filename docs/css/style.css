@@ -107,7 +107,7 @@ div#about #skills {
 div#about #interests {
   grid-area: 3/2/span 1/span 1;
   display: grid;
-  grid-template-rows: 5% auto auto auto;
+  grid-template-rows: 5% auto auto;
 }
 
 .footer {
