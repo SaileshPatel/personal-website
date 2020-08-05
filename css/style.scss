@@ -102,15 +102,23 @@ div#about {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 20% 20% 20% auto;
-    grid-template-rows: 5% 5% auto;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 5% 10% auto;
 
     #title {
-        grid-area: 1 / 1 / span 1 / span 4;
+        grid-area: 1 / 1 / span 1 / span 2;
     }
 
     #bio {
-        grid-area: 2 / 1 / span 1 / span 4;
+        grid-area: 2 / 1 / span 1 / span 2;
+    }
+
+    #skills {
+        height: 100%;
+        width: 100%;
+        grid-area: 3 / 1 / span 1 / span 1;
+        display: grid;
+        grid-template-rows: 5% auto auto auto;
     }
 }
 
