@@ -100,11 +100,12 @@ div#about #bio {
   grid-area: 2/1/span 1/span 2;
 }
 div#about #skills {
-  height: 100%;
-  width: 100%;
   grid-area: 3/1/span 1/span 1;
   display: grid;
   grid-template-rows: 5% auto auto auto;
+}
+div#about #interests {
+  grid-area: 3/2/span 1/span 1;
 }
 
 .footer {
