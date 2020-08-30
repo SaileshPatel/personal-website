@@ -5,6 +5,24 @@
   min-height: 100vh;
 }
 
+#profile {
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  #profile {
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+  }
+
+  div#about {
+    text-align: center;
+  }
+  div#about * {
+    padding-bottom: 3px;
+  }
+}
 @media (min-width: 768px) {
   .container {
     display: grid;
@@ -16,24 +34,53 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 5% 10% auto;
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: max-content;
+    row-gap: 1%;
   }
   div#about #title {
     grid-area: 1/1/span 1/span 2;
   }
   div#about #bio {
-    grid-area: 2/1/span 1/span 2;
+    grid-area: 2/1/span 1/span 1;
+  }
+  div#about #profile {
+    grid-area: 2/2/span 1/span 1;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
   }
   div#about #skills {
-    grid-area: 3/1/span 1/span 1;
+    grid-area: 3/1/span 1/span 2;
     display: grid;
-    grid-template-rows: 5% auto auto auto;
+    grid-auto-rows: max-content;
+    grid-template-columns: 33% 33% 33%;
   }
-  div#about #interests {
-    grid-area: 3/2/span 1/span 1;
-    display: grid;
-    grid-template-rows: 5% auto auto;
+  div#about #skills li {
+    text-align: center;
+  }
+  div#about #skills h1 {
+    grid-area: 1/1/span 1/span 3;
+    padding-bottom: 1vh;
+    text-align: center;
+  }
+  div#about #skills #beginner {
+    grid-area: 2/3/span 1/span 1;
+  }
+  div#about #skills #beginner h2 {
+    text-align: center;
+  }
+  div#about #skills #intermediate {
+    grid-area: 2/2/span 1/span 1;
+  }
+  div#about #skills #intermediate h2 {
+    text-align: center;
+  }
+  div#about #skills #expert {
+    grid-area: 2/1/span 1/span 1;
+  }
+  div#about #skills #expert h2 {
+    text-align: center;
   }
 }
 p, li {
