@@ -18,6 +18,9 @@
   div#about {
     text-align: center;
   }
+  div#about * {
+    padding-bottom: 3px;
+  }
 }
 @media (min-width: 768px) {
   .container {
