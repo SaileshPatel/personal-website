@@ -13,6 +13,7 @@ $size: 40px;
     border-radius: 50%;
 }
 
+// mobile view
 @media (max-width: 768px){
     #profile {
         height: 250px;
@@ -24,6 +25,7 @@ $size: 40px;
     }
 }
 
+// desktop view
 @media (min-width: 768px) {
     .container {
         display: grid;
