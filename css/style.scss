@@ -16,8 +16,9 @@ $size: 40px;
 // mobile view
 @media (max-width: 768px){
     #profile {
-        height: 250px;
-        width: auto;
+        max-width: 50%;
+        height: auto;
+        margin: auto;
     }
 
     div#about {
@@ -67,25 +68,35 @@ $size: 40px;
             grid-template-columns: 33% 33% 33%;
 
             li {
-                list-style: disc;
+                text-align: center;
+                //list-style: disc;
             }
 
             h1 {
                 grid-area: 1 / 1 / span 1 / span 3;
                 padding-bottom: 1vh;
+                text-align: center;
             }
 
             #beginner {
-                grid-area: 2 / 1 / span 1 / span 1;
+                grid-area: 2 / 3 / span 1 / span 1;
+                h2 {
+                    text-align: center;
+                }
             }
 
             #intermediate {
                 grid-area: 2 / 2 / span 1 / span 1;
-
+                h2 {
+                    text-align: center;
+                }
             }
 
             #expert {
-                grid-area: 2 / 3 / span 1 / span 1;
+                grid-area: 2 / 1 / span 1 / span 1;
+                h2 {
+                    text-align: center;
+                }    
             }
         }
     }

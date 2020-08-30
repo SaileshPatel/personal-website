@@ -11,8 +11,9 @@
 
 @media (max-width: 768px) {
   #profile {
-    height: 250px;
-    width: auto;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
   }
 
   div#about {
@@ -56,20 +57,30 @@
     grid-template-columns: 33% 33% 33%;
   }
   div#about #skills li {
-    list-style: disc;
+    text-align: center;
   }
   div#about #skills h1 {
     grid-area: 1/1/span 1/span 3;
     padding-bottom: 1vh;
+    text-align: center;
   }
   div#about #skills #beginner {
-    grid-area: 2/1/span 1/span 1;
+    grid-area: 2/3/span 1/span 1;
+  }
+  div#about #skills #beginner h2 {
+    text-align: center;
   }
   div#about #skills #intermediate {
     grid-area: 2/2/span 1/span 1;
   }
+  div#about #skills #intermediate h2 {
+    text-align: center;
+  }
   div#about #skills #expert {
-    grid-area: 2/3/span 1/span 1;
+    grid-area: 2/1/span 1/span 1;
+  }
+  div#about #skills #expert h2 {
+    text-align: center;
   }
 }
 p, li {
