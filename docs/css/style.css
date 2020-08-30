@@ -5,6 +5,10 @@
   min-height: 100vh;
 }
 
+#profile {
+  border-radius: 50%;
+}
+
 @media (min-width: 768px) {
   .container {
     display: grid;
@@ -16,7 +20,7 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 40%;
     grid-auto-rows: max-content;
     row-gap: 1%;
   }
@@ -28,6 +32,8 @@
   }
   div#about #profile {
     grid-area: 2/2/span 1/span 1;
+    max-width: 100%;
+    height: auto;
   }
   div#about #skills {
     grid-area: 3/1/span 1/span 2;
@@ -40,6 +46,7 @@
   }
   div#about #skills h1 {
     grid-area: 1/1/span 1/span 3;
+    padding-bottom: 1vh;
   }
   div#about #skills #beginner {
     grid-area: 2/1/span 1/span 1;
