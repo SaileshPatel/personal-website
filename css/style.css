@@ -9,6 +9,16 @@
   border-radius: 50%;
 }
 
+@media (max-width: 768px) {
+  #profile {
+    height: 250px;
+    width: auto;
+  }
+
+  div#about {
+    text-align: center;
+  }
+}
 @media (min-width: 768px) {
   .container {
     display: grid;
