@@ -16,7 +16,7 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
     grid-auto-rows: max-content;
     row-gap: 1%;
   }
@@ -24,17 +24,31 @@
     grid-area: 1/1/span 1/span 2;
   }
   div#about #bio {
-    grid-area: 2/1/span 1/span 2;
+    grid-area: 2/1/span 1/span 1;
+  }
+  div#about #profile {
+    grid-area: 2/2/span 1/span 1;
   }
   div#about #skills {
-    grid-area: 3/1/span 1/span 1;
+    grid-area: 3/1/span 1/span 2;
     display: grid;
     grid-auto-rows: max-content;
+    grid-template-columns: 33% 33% 33%;
   }
-  div#about #interests {
-    grid-area: 3/2/span 1/span 1;
-    display: grid;
-    grid-auto-rows: max-content;
+  div#about #skills li {
+    list-style: disc;
+  }
+  div#about #skills h1 {
+    grid-area: 1/1/span 1/span 3;
+  }
+  div#about #skills #beginner {
+    grid-area: 2/1/span 1/span 1;
+  }
+  div#about #skills #intermediate {
+    grid-area: 2/2/span 1/span 1;
+  }
+  div#about #skills #expert {
+    grid-area: 2/3/span 1/span 1;
   }
 }
 p, li {
