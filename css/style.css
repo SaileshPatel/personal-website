@@ -56,6 +56,10 @@
     grid-auto-rows: max-content;
     grid-template-columns: 33% 33% 33%;
   }
+  div#about #skills div:nth-child(odd) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
   div#about #skills li {
     text-align: center;
   }
@@ -63,6 +67,7 @@
     grid-area: 1/1/span 1/span 3;
     padding-bottom: 1vh;
     text-align: center;
+    border-bottom: 1px solid black;
   }
   div#about #skills #beginner {
     grid-area: 2/3/span 1/span 1;
