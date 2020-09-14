@@ -168,6 +168,15 @@ article.post p:first-of-type {
 article.post p {
   padding-top: 15px;
 }
+article.post blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+article.post blockquote p {
+  display: inline;
+}
 
 .footer {
   grid-area: 3/1/span 1/span 3;
