@@ -115,6 +115,14 @@ p, li {
     padding-top: 6px;
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
 time {
     font-size: $size * 0.35;
     font-family: $font-stack;

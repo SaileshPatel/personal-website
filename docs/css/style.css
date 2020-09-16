@@ -94,6 +94,14 @@ p, li {
   padding-top: 6px;
 }
 
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 time {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
