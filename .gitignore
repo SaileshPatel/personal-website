@@ -4,3 +4,5 @@ package-lock.json
 css/style.css.map
 docs/css/style.css.map
 docs/img/.DS_Store
+.DS_Store
+docs/.DS_Store
